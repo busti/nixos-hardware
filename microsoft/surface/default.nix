@@ -4,5 +4,5 @@
 
   # environment.systemPackages = with pkgs; [ surface-control ];
   users.groups.surface-control = { };
-  services.udev.packages = [ pkgs.surface-control ];
+  # services.udev.packages = [ pkgs.surface-control ];
 }
